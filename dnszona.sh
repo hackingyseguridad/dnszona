@@ -20,7 +20,8 @@ fi
 NS="$(dig $1 ns | egrep '[[:space:]]NS[[:space:]]' | awk '{print $5}')"
 echo
 echo "==========================================="
-echo "| Servidores DNS autoritativos del dominio $1 $NS |"
+echo Servidores DNS autoritativos del dominio $1
+echo $NS
 echo "==========================================="
 echo
 
