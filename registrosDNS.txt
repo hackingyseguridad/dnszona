@@ -1,0 +1,25 @@
+Registros DNS
+
+A ( Direccion )
+Asigna un nombre de host a una direccion IP
+
+AAAA ( Direccion )
+Asigna un nombre de host a una direccion IPv6
+
+SOA ( Inicio de la Autoridad ) Idenfitica el servidor DNS responsable de la informacion del dominio
+CNNAME ( Nombre canonico ) Proporciona alias adicionales para el registro de la direccion
+
+MS ( Mail Exchange )
+Idenfitica el servidor de correo para el dominio
+
+SRV ( Servicio )
+Identifica servicios tales como servicio de directorio
+
+PTR ( Puntero )
+Asigna direcciones IP a nombres de host
+
+NS ( Servidor de nombres )
+Identifica  servidores de nombres autoritativos para el dominio
+
+AXFT ( Zone trasfer )
+Puede filtrar todos los nombres de subdominios registrados para el dominio
