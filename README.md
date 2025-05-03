@@ -4,4 +4,6 @@
 
 dig @IP_DNS dominio.com AXFR +nocmd +nocomments
 
+dnsenum --enum dominio.com
+
 http://www.hackingyseguridad.com
