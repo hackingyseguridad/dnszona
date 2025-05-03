@@ -13,6 +13,11 @@ Las zonas de resolución inversa, estas se utilizan para mapear direcciones IP a
 
 dig @IP_DNS dominio.com AXFR +nocmd +nocomments
 
-dnsenum --enum dominio.com
+dnsenum --zonetransfer dominio.com
 
+
+
+
+#
 http://www.hackingyseguridad.com
+#
